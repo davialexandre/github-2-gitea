@@ -1,0 +1,17 @@
+{
+  "name": "davialexandre/github-2-gitea",
+  "description": "Migrate Github repos to Gitea",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Davi Alexandre",
+      "email": "davi@davialexandre.com.br"
+    }
+  ],
+  "require": {
+    "knplabs/github-api": "^2.10",
+    "php-http/guzzle6-adapter": "^1.1",
+    "symfony/dotenv": "^4.1"
+  }
+}
